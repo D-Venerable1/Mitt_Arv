@@ -81,14 +81,14 @@
        padding-left: 50px;
        font-family: inter;
    }
-   .About-Us{
+   #About-Us{
        background-color: white;
        font-family: inter;
        padding-left: 130px;
        padding-right: 60px;
        padding-bottom: 30px;
    }
-   .About-Us p{
+   #About-Us p{
        color: grey;
    }
    .footer{
@@ -146,31 +146,18 @@
        margin-left: 980px;
        margin-top: -170px;
        color: white;
-       font-family: inter;   
+        font-family: inter;   
 }
    
-@media only screen and (max-width: 480px){
-#second-ul{
-    /* display: block; */
+@media (width: 360px){
+    .footer{
+        display: block;
+        width: 100px;
+    }
 }
-#second-ul li{
-    /* display: block; */
+.navbar{
+    display: block;
 }
 body{
-    /* overflow-x: hidden; */
-}
-#npr{
-    font-size: 10px;
-
-}
-#ndr{
-    display: block;
-    width: 350px;
-    padding-left: 0px;
-    margin-left: -90px;
-    font-size: 20px;
-}
-.navbar img{
-    
-}
+    overflow-x: hidden;
 }
